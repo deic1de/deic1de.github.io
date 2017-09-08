@@ -1,0 +1,12 @@
+.Gallery {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  margin: 0;
+  z-index: 2;
+  width: 400px;
+  height:300px;
+  bottom: 0px;
+}

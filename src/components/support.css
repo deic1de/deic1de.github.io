@@ -1,0 +1,53 @@
+.support {
+  position: absolute;
+  top: 3100px;
+  height: 800px;
+  width: 100%;
+
+}
+
+.support p {
+  text-align: center;
+}
+
+#contact {
+  float:left;
+  width: 250px;
+  position: relative;
+  left: 200px;
+}
+
+#form {
+  float: left;
+  position: relative;
+  left: 450px;
+}
+
+#map {
+  height: 225px;
+  background: #fff url(images/map.jpg) no-repeat center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 350px;
+}
+
+#form .btn {
+  position: relative;
+  float:right;
+}
+
+#contact h4 {
+  font-size: 22px;
+  font-family: OpenSansRegular;
+}
+
+#contact p {
+  font-size: 13px;
+  font-family: OpenSansRegular;
+}
+
+#form h4 {
+  font-size: 22px;
+  font-family: OpenSansRegular;
+}

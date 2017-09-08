@@ -1,0 +1,73 @@
+@font-face {
+   font-family: MyriadProRegular; /* Имя шрифта */
+   src: url(fonts/MyriadProRegular/MyriadProRegular.ttf); /* Путь к файлу со шрифтом */
+   font-family: MyriadProBold; /* Имя шрифта */
+   src: url(fonts/MyriadPro/MyriadProBold/MyriadProBold.ttf); /* Путь к файлу со шрифтом */
+   font-family: 'Open Sans', sans-serif;
+}
+
+.features-container {
+  height: 450px;
+  width: 100%;
+  background-color: #fff;
+  position:absolute;
+  top: 750px;
+  z-index: 1;
+
+}
+
+h2 {
+  text-align: center;
+  color: #b81b9e;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: MyriadProBold;
+  font-size: 28px;
+}
+
+.tracks {
+    margin-top: 0;
+    margin-left: 20px;
+}
+
+.tracks h3 {
+  margin: 0;
+  margin-left: 45px;
+  margin-bottom: 20px;
+  font-family: OpenSans Extrabold;
+  font-size: 20px;
+}
+
+.column-container{
+  width: auto;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+}
+.column {
+    margin-left: 10px;
+}
+
+.column:first-child {
+  margin-left: 230px;
+}
+.column:last-child {
+  margin-right: 150px;
+}
+.tracks p{
+  padding-left: 50px;
+  font-family: MyriadProRegular;
+  font-size: 12px;
+}
+.logo {
+  float: left;
+  width: 40px;
+  height: 40px;
+  border: 0.5px solid black;
+  border-radius: 50%;
+}
+
+.logo img {
+  display: block;
+  margin: 10px auto;
+}

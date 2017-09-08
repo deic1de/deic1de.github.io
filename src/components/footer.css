@@ -1,0 +1,61 @@
+#footer {
+  height:400px;
+  width: 100%;
+  position: absolute;
+  top: 3950px;
+  background: #2d232b;
+}
+
+#footer img {
+  float:right;
+  width: 500px;
+  height:400px;
+  position: relative;
+  top:0;
+  right:0;
+}
+
+#footer #footer-container{
+  width: 1000px;
+  display: flex;
+  margin-left: 150px;
+}
+
+#footer h3 {
+  color: white;
+  font-size: 28px;
+  font-family: MyriadProRegular;
+}
+#footer h4 {
+  color: white;
+  font-size: 18px;
+  font-family: OpenSansBold;
+}
+
+#footer p {
+  color: white;
+  font-size: 12px;
+  font-family: OpenSansBold;
+}
+
+#footer h4 {
+  margin-top: 20px;
+}
+
+input {
+  background-color: #2d232b;
+  border-color: white;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+#explore {
+  display: flex;
+  position: relative;
+}
+
+#explore p {
+  position: relative;
+  top:50px;
+  left: -60px;
+}

@@ -1,0 +1,73 @@
+.join {
+  height: 925px;
+  width: 100%;
+  position: absolute;
+  top: 2200px;
+
+}
+
+.join p {
+  text-align: center;
+}
+
+.btn-custom {
+        background-color: purple;
+        color: white;
+        width: 250px;
+        height: 50px;
+        font-size: 26px;
+        font-family: MyriadProBold;
+
+}
+.join h2{
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+.join h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.btncnt {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 140px;
+}
+
+.info {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+}
+
+.info img {
+  height:212px;
+  width: 212px;
+  margin-top: 50px;
+}
+
+.info img:first-child{
+  margin-right: 140px;
+}
+
+
+.info img:last-child{
+  margin-left: 140px;
+}
+
+.info__for {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+}
+
+
+.info__for h4:first-child{
+  margin-right: 210px;
+}
+
+
+.info__for h4:last-child{
+  margin-left: 200px;
+}
